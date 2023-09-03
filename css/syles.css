@@ -217,9 +217,7 @@ h1 + p {
     text-align: center;
     border: none;
     text-decoration: none; 
-  }
-
-  
+}
 
 /*section 5*/
 
@@ -320,13 +318,13 @@ nav .nav-footer{
 
 .nav-footer li {
     margin-bottom: 1.2rem; 
-  }
+}
 
 .nav-footer a {
-  text-decoration: none;
-  color: #FFF;
-  font-size: 1.6rem;
-  font-weight: 300;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 300;
 }
 
 .social-icons {
@@ -357,7 +355,7 @@ nav .nav-footer{
 /*ocultar elementos del desktop*/
 @media (max-width: 767px) {
     .desktop-nav {
-      display: none;
+    display: none;
     }
     .conteiner-btn-header{
         display: none;
@@ -374,7 +372,7 @@ nav .nav-footer{
     .final-label-desktop{
         display: none;
     }
-  }
+}
 
 /* Estilos para dispositivos de escritorio */
 @media (min-width: 768px) {
@@ -404,23 +402,23 @@ nav .nav-footer{
         font-size: 1.3rem;
         font-weight: 500;
         line-height: 176.1%;
-      }
+    }
 
     .nav-header li :hover{
         color: rgba(36, 46, 82, 0.60);
     }
 
-      /*main seccion 1*/
+    /*main seccion 1*/
 
-      .menu-header {
+    .menu-header {
         display: none;
-      }
+    }
 
-      .section1{
+    .section1{
         display: flex;
         margin: 8.5rem 17rem 9rem 18rem;
         justify-content: space-between;
-      }
+    }
 
     .section1 .element-2{
         width: 50rem;
@@ -492,7 +490,6 @@ nav .nav-footer{
     }
 
     .card-number{
-      
         top: 41px;
         left: -70px;
         position: relative;
@@ -522,9 +519,8 @@ nav .nav-footer{
         margin: 2rem 0 4.5rem 0;
         padding: 2.8rem;
         position: relative;
-   }
+    }
     
-   
     .players{
         display: flex;
         justify-content: space-around;
@@ -534,66 +530,62 @@ nav .nav-footer{
 
     .card-avatar{
         margin: 2rem 0 4.5rem 0;
-      
     }
 
     .btn-contact:hover {
         background-color: rgba(139, 72, 191, 0.70); 
-      }
+    }
 
-   /*seccion 5*/
+    /*seccion 5*/
 
-   .section5--title{
+    .section5--title{
     width: 45rem;
-   }
-   .section5{
+    }
+    .section5{
     background: #8B48BF;
     display: flex;
     justify-content: space-around;
     
-   }
+    }
 
-   .conteiner-btn-1{
+    .conteiner-btn-1{
     height: 4rem;
     align-items: center;
     margin: 0;
     padding: 0;
-   }
+    }
 
-   .btn-go-for-it{
+    .btn-go-for-it{
     background: #FFF;
     color: #8B48BF;
-   }
-   /*footer*/
+    }
+    /*footer*/
 
-   footer{
+    footer{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-   }
+    }
 
-   .final-label-desktop{
+    .final-label-desktop{
     text-align: center;
     margin-top: 2.5rem;
     padding: 1rem;
     color: #8C8C94;
     font-size: 1.25rem;
     font-weight: 500;
-   }
-   .final-label{
+    }
+    .final-label{
     display: none;
-   }
+    }
 
-   .icons-logo{
+    .icons-logo{
     display: flex;
     flex-direction: column-reverse;
-   }
-   .social-icons a{
+    }
+    .social-icons a{
     margin:0 1rem ;
     
-   }
+    }
 
-
-
-   
 }
