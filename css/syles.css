@@ -1,0 +1,599 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+
+}
+
+/*header*/
+
+.header-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 5.6rem 2rem;
+}
+.logo-header {
+    width: 107.68px;
+    height: 25px;
+}
+
+.menu-header {
+    width: 60px;
+    height: 60px;
+}
+
+/*main*/
+
+.main-img {
+    margin: 4rem;
+    width: 80%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+section h1{
+    margin: 4rem;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 114.6%;
+    color: #232C50;
+    margin-top: 25px;
+    text-align: right;
+    letter-spacing: -0.175rem;
+
+}
+
+h1 + p {
+    margin:2.8rem 4rem 2.8rem;
+    text-align: right;
+    font-weight: 500;
+    line-height: 157.1%;
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.conteiner-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-contact{
+    right: 2rem;
+    width: 13.4rem;
+    height: 4.4rem;
+    border-radius: 50px;
+    background-color: #8B48BF;
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 10px;
+    border: none;
+    margin:0 4rem;
+}
+
+.section1{
+    margin-bottom: 2rem;
+}
+
+.section2{
+    width: 100%;
+    height: auto;
+    background-color: #3CDDF3;
+}
+
+.section2-title{
+    padding: 4rem 2rem;
+    text-align: left;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 114.6%;
+    color: white;
+}
+
+.section2-title + p {
+    padding: 2rem 2rem 4rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 151.1%;
+    
+}
+
+/*Section 3*/
+
+.section3{
+    display: flex;
+    margin: 6.5rem 0 6.8rem 3.4rem;
+    flex-direction: column;
+}
+
+
+
+.card-head{
+    direction: relative;
+}
+
+.card-number{
+    width: 6.9rem;
+    height: 4.1rem;
+    border-radius: 30px;
+    background-color: #8B48BF;
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    margin:0 4rem;
+    position: absolute;
+    left: 0;
+}
+
+.card--title{
+    width: 100%;
+    height: 4.2rem;
+    border-radius: 50px 0px 0px 50px;
+    background:rgba(139, 72, 191, 0.30);
+    color: #323851;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -0.024rem;
+    margin-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 5.5rem;
+}
+
+.card-body{
+    margin: 2.1rem 1.8rem 2rem 1rem;
+    color: #B3B2B7;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 1rem;
+
+}
+
+/*secction 4*/
+
+.section4-title {
+    color: #242E53;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 156%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 7.25rem;
+
+}
+
+.card-avatar{
+    background-color: #FAFAFA;
+    margin: 10.9rem 1.7rem 4.5rem 1.8rem;
+    padding: 2.8rem;
+    position: relative;
+}
+.avatar {
+    margin:2.1rem auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+
+}
+.title-avatar{
+    display: flex;
+    color: #3F4868;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 156.6%;
+    margin: 2.1rem auto;
+    justify-content: center;
+}
+
+.body-avatar{
+    color: #B9B9C1;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.conteiner-btn-1{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contact {
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: none;
+    text-decoration: none; 
+  }
+
+  
+
+/*section 5*/
+
+.section5 {
+    background: #3CDDF3;
+    width: 100%;
+    height: auto;
+    margin-top: 5.8rem;
+    padding: 4rem 5rem;
+}
+
+.section5--title{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 119.6%;
+    letter-spacing: -0.02rem;
+
+}
+
+.btn-go-for-it{
+    right: 2rem;
+    width: 13.4rem;
+    height: 4.4rem;
+    border-radius: 50px;
+    background-color: #232C50;
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 10px;
+    border: none;
+    margin:0 4rem;
+    margin-top: 5rem;
+}
+
+/*footer*/
+
+footer{
+    background-color: #1E1E26;
+    width: 100%;
+    height: auto;
+    padding-bottom: 4rem;
+}
+
+.btn-go{
+    right: 2rem;
+    width: 6.3rem;
+    height: 4.4rem;
+    border-radius: 50px;
+    background-color: #8B48BF;
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 10px;
+    border: none;
+    margin:0 1rem;
+}
+
+.header--inbox{
+    display: flex;
+    padding: 5rem;
+
+}
+.btn-inbox{
+    width: 30.8rem;
+    height: 4.4rem;
+    display: flex;
+    background: #FFF;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    align-items: center;
+}
+
+.btn-inbox input[type="email"] {
+    border: none; 
+
+}
+
+.btn-inbox input[type="email"]::placeholder {
+    color: #A0A0A0;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.nav-footer{
+    margin: 2.5rem 6.8rem;
+    padding: 1rem;
+}
+
+nav .nav-footer{
+    list-style: none;
+    column-count: 2;
+    column-gap: 15rem; 
+    padding: 0;
+}
+
+.nav-footer li {
+    margin-bottom: 1.2rem; 
+  }
+
+.nav-footer a {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.social-icons {
+    margin: 5rem;
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo-footer{
+    padding: 1rem;
+    margin-top: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.final-label{
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    color: #8C8C94;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/*ocultar elementos del desktop*/
+@media (max-width: 767px) {
+    .desktop-nav {
+      display: none;
+    }
+    .conteiner-btn-header{
+        display: none;
+    }
+    .for-desktop{
+        display: none;
+    }
+    .card-avatar-sanyo{
+        display: none;
+    }
+    .card-avatar-navarro{
+        display: none;
+    }
+    .final-label-desktop{
+        display: none;
+    }
+  }
+
+/* Estilos para dispositivos de escritorio */
+@media (min-width: 768px) {
+
+    /*header*/
+    .desktop-nav ul{
+        width: 100rem;
+        
+    }
+
+    
+
+    nav .nav-header{
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-header li{
+        display: inline-block;
+        margin-right: 2.8rem;
+    }
+
+    .nav-header a {
+        text-decoration: none;
+        color: #242E52;
+        font-size: 1.3rem;
+        font-weight: 500;
+        line-height: 176.1%;
+      }
+
+    .nav-header li :hover{
+        color: rgba(36, 46, 82, 0.60);
+    }
+
+      /*main seccion 1*/
+
+      .menu-header {
+        display: none;
+      }
+
+      .section1{
+        display: flex;
+        margin: 8.5rem 17rem 9rem 18rem;
+        justify-content: space-between;
+      }
+
+    .section1 .element-2{
+        width: 50rem;
+    }
+
+    /*main seccion 2*/
+    .section2{
+        display: flex;
+        background: #8B48BF;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    
+    .section2 .section2-title{
+        width: 55rem;
+        margin-left: 18rem;
+        margin-right: 5rem;
+    }
+    .for-desktop{
+        padding: 2rem 2rem 4rem;
+        color: white;
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 151.1%;
+    
+    }
+    .section2 p:not(.for-desktop) {
+        display: none;
+    }
+
+    .section2 .for-desktop{
+        width: 55rem;
+        margin-right: 20rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+
+    }
+    /*section 3*/
+
+    .card--title{
+    
+        height: 4.2rem;
+        border-radius: 50px 0px 0px 50px;
+        background:#FAFAFA;
+        color: #323851;
+        font-size: 1.6rem;
+        font-weight: 700;
+        letter-spacing: -0.024rem;
+        margin-left: 0;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+    }
+
+
+
+    .card1, .card2 ,.card3{
+        width: 43.7rem;
+        margin-left: 5rem;
+    }
+    .section3{
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background: #FAFAFA;
+    }
+
+    .card-number{
+      
+        top: 41px;
+        left: -70px;
+        position: relative;
+        width: 6.9rem;
+        height: 4.1rem;
+        border-radius: 30px;
+        background-color: #8B48BF;
+        color: white;
+        font-weight: 700;
+        font-size: 1.6rem;
+        padding: 1rem 2.5rem;
+        border: none;
+        margin:0;
+    }
+    .card-body{
+    
+        margin: 2.1rem 1.8rem 2rem 1rem;
+        color: #B3B2B7;
+        font-size: 1.6rem;
+        font-weight: 500;
+        padding: 1rem;
+    
+    }
+    /*seccion 4*/
+    .card-avatar-sanyo,.card-avatar-navarro {
+        background-color: #FAFAFA;
+        margin: 2rem 0 4.5rem 0;
+        padding: 2.8rem;
+        position: relative;
+   }
+    
+   
+    .players{
+        display: flex;
+        justify-content: space-around;
+        padding: 4.7rem;
+        
+    }
+
+    .card-avatar{
+        margin: 2rem 0 4.5rem 0;
+      
+    }
+
+    .btn-contact:hover {
+        background-color: rgba(139, 72, 191, 0.70); 
+      }
+
+   /*seccion 5*/
+
+   .section5--title{
+    width: 45rem;
+   }
+   .section5{
+    background: #8B48BF;
+    display: flex;
+    justify-content: space-around;
+    
+   }
+
+   .conteiner-btn-1{
+    height: 4rem;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+   }
+
+   .btn-go-for-it{
+    background: #FFF;
+    color: #8B48BF;
+   }
+   /*footer*/
+
+   footer{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+   }
+
+   .final-label-desktop{
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    color: #8C8C94;
+    font-size: 1.25rem;
+    font-weight: 500;
+   }
+   .final-label{
+    display: none;
+   }
+
+   .icons-logo{
+    display: flex;
+    flex-direction: column-reverse;
+   }
+   .social-icons a{
+    margin:0 1rem ;
+    
+   }
+
+
+
+   
+}
