@@ -3,21 +3,23 @@
     margin: 0;
     padding: 0;
 }
-html{
+
+html {
     font-size: 62.5%;
     font-family: 'Be Vietnam Pro', sans-serif;
-    
+
 
 }
 
 /*header*/
 
-.header-img{
+.header-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 2rem 2rem;
 }
+
 .logo-header {
     width: 107.68px;
     height: 25px;
@@ -28,7 +30,8 @@ html{
 }
 
 .conteiner-btn-header {
-    display: none; /* Oculta el botón de contacto en pantallas pequeñas */
+    display: none;
+    /* Oculta el botón de contacto en pantallas pequeñas */
 }
 
 /*main*/
@@ -40,7 +43,7 @@ html{
     margin-top: 2rem;
 }
 
-section h1{
+section h1 {
     margin: 4rem;
     font-size: 4rem;
     color: #232C50;
@@ -50,8 +53,8 @@ section h1{
 
 }
 
-h1 + p {
-    margin:2.8rem 4rem 2.8rem;
+h1+p {
+    margin: 2.8rem 4rem 2.8rem;
     text-align: right;
     font-size: 1.6rem;
     color: #000;
@@ -59,11 +62,12 @@ h1 + p {
 
 .conteiner-btn {
     display: flex;
-    justify-content: right; /* Centra el botón en pantallas pequeñas */
+    justify-content: right;
+    /* Centra el botón en pantallas pequeñas */
     margin-top: 2rem;
 }
 
-.btn-contact{
+.btn-contact {
     right: 2rem;
     width: 13.4rem;
     height: 4.4rem;
@@ -73,37 +77,37 @@ h1 + p {
     font-size: 1.4rem;
     padding: 1.5rem;
     border: none;
-    margin:4rem;
+    margin: 4rem;
 }
 
-.section1{
+.section1 {
     margin-bottom: 2rem;
 }
 
-.section2{
+.section2 {
     width: 100%;
     height: auto;
     background-color: #3CDDF3;
 }
 
-.section2-title{
+.section2-title {
     padding: 4rem 2rem;
     text-align: left;
     font-size: 3.6rem;
     color: white;
 }
 
-.section2-title + p {
+.section2-title+p {
     padding: 2rem 2rem 4rem;
     color: white;
     font-size: 1.6rem;
     margin-bottom: 2rem;
-    
+
 }
 
 /*Section 3*/
 
-.section3{
+.section3 {
     display: flex;
     margin: 2rem;
     flex-direction: column;
@@ -111,11 +115,11 @@ h1 + p {
 
 
 
-.card-head{
+.card-head {
     direction: relative;
 }
 
-.card-number{
+.card-number {
     width: 6.9rem;
     height: 4.1rem;
     border-radius: 30px;
@@ -124,16 +128,16 @@ h1 + p {
     font-size: 1.6rem;
     padding: 1rem 2.5rem;
     border: none;
-    margin:0 4rem;
+    margin: 0 4rem;
     position: absolute;
     left: 0;
 }
 
-.card--title{
+.card--title {
     width: 100%;
     height: 4.2rem;
     border-radius: 50px 0px 0px 50px;
-    background:rgba(139, 72, 191, 0.30);
+    background: rgba(139, 72, 191, 0.30);
     color: #323851;
     font-size: 1.6rem;
     letter-spacing: -0.024rem;
@@ -143,7 +147,7 @@ h1 + p {
     padding-left: 5.5rem;
 }
 
-.card-body{
+.card-body {
     margin: 2.1rem 1rem;
     color: #B3B2B7;
     font-size: 1.6rem;
@@ -153,7 +157,8 @@ h1 + p {
 
 /*secction 4*/
 .section4 {
-    text-align: center; /* Alineación centrada en pantallas pequeñas */
+    text-align: center;
+    /* Alineación centrada en pantallas pequeñas */
     margin: 2rem;
 }
 
@@ -168,19 +173,21 @@ h1 + p {
 
 }
 
-.card-avatar{
+.card-avatar {
     background-color: #FAFAFA;
     margin: 10.9rem 1.7rem 4.5rem 1.8rem;
     padding: 2.8rem;
     position: relative;
 }
+
 .avatar {
-    margin:2.1rem auto;
+    margin: 2.1rem auto;
     display: flex;
     justify-content: center;
     position: relative;
 }
-.title-avatar{
+
+.title-avatar {
     display: flex;
     color: #3F4868;
     font-size: 1.6rem;
@@ -188,13 +195,13 @@ h1 + p {
     justify-content: center;
 }
 
-.body-avatar{
+.body-avatar {
     color: #B9B9C1;
     text-align: center;
     font-size: 1.6rem;
 }
 
-.conteiner-btn-1{
+.conteiner-btn-1 {
     display: flex;
     justify-content: center;
     margin: 2rem;
@@ -205,8 +212,8 @@ h1 + p {
     padding: 1rem 2rem;
     text-align: center;
     border: none;
-    text-decoration: none; 
-  }
+    text-decoration: none;
+}
 
 
 /*section 5*/
@@ -217,7 +224,7 @@ h1 + p {
     padding: 4rem 2rem;
 }
 
-.section5--title{
+.section5--title {
     color: white;
     text-align: center;
     font-size: 4rem;
@@ -226,7 +233,7 @@ h1 + p {
 
 }
 
-.btn-go-for-it{
+.btn-go-for-it {
     right: 2rem;
     width: 13.4rem;
     height: 4.4rem;
@@ -236,19 +243,19 @@ h1 + p {
     font-size: 1.4rem;
     padding: 10px;
     border: none;
-    margin:0 4rem;
+    margin: 0 4rem;
     margin-top: 5rem;
 }
 
 /*footer*/
 
-footer{
+footer {
     background-color: #1E1E26;
     text-align: center;
     padding-bottom: 4rem;
 }
 
-.btn-go{
+.btn-go {
     /*
     
     
@@ -265,13 +272,14 @@ footer{
     border: none;
 }
 
-.header--inbox{
+.header--inbox {
     display: flex;
     padding: 5rem;
     align-items: center;
 
 }
-.btn-inbox{
+
+.btn-inbox {
     width: 30.8rem;
     height: 4.4rem;
     display: flex;
@@ -283,7 +291,7 @@ footer{
 }
 
 .btn-inbox input[type="email"] {
-    border: none; 
+    border: none;
 
 }
 
@@ -293,46 +301,46 @@ footer{
     font-weight: 500;
 }
 
-.nav-footer{
+.nav-footer {
     margin: 2.5rem 6.8rem;
     padding: 1rem;
 }
 
-nav .nav-footer{
+nav .nav-footer {
     list-style: none;
     column-count: 2;
-    column-gap: 15rem; 
+    column-gap: 15rem;
     padding: 0;
 }
 
 .nav-footer li {
-    margin-bottom: 1.2rem; 
-  }
+    margin-bottom: 1.2rem;
+}
 
 .nav-footer a {
-  text-decoration: none;
-  color: #FFF;
-  font-size: 1.6rem;
-  font-weight: 300;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 300;
 }
 
 .social-icons {
     margin: 5rem;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.logo-footer{
+.logo-footer {
     padding: 1rem;
     margin-top: 2.5rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
-    
+
 }
 
-.final-label{
+.final-label {
     text-align: center;
     margin-top: 2.5rem;
     padding: 1rem;
@@ -344,43 +352,45 @@ nav .nav-footer{
 /*ocultar elementos del desktop*/
 @media (max-width: 767px) {
     .desktop-nav {
-      display: none;
-    }
-    .conteiner-btn-header{
         display: none;
     }
-    .for-desktop{
+
+    .conteiner-btn-header {
         display: none;
     }
-    .card-avatar-sanyo{
+
+    .for-desktop {
         display: none;
     }
-    .card-avatar-navarro{
+
+    .card-avatar-sanyo {
         display: none;
     }
-    .final-label-desktop{
+
+    .card-avatar-navarro {
         display: none;
     }
-  }
+
+    .final-label-desktop {
+        display: none;
+    }
+}
 
 /* Estilos para dispositivos de escritorio */
 @media (min-width: 768px) {
 
     /*header*/
-    .desktop-nav ul{
+    .desktop-nav ul {
         width: 100rem;
-        
     }
 
-    
-
-    nav .nav-header{
+    nav .nav-header {
         list-style: none;
         padding: 0;
         text-align: center;
     }
 
-    .nav-header li{
+    .nav-header li {
         display: inline-block;
         margin-right: 2.8rem;
     }
@@ -391,30 +401,30 @@ nav .nav-footer{
         font-size: 1.3rem;
         font-weight: 500;
         line-height: 176.1%;
-      }
+    }
 
-    .nav-header li :hover{
+    .nav-header li :hover {
         color: rgba(36, 46, 82, 0.60);
     }
 
-      /*main seccion 1*/
+    /*main seccion 1*/
 
-      .menu-header {
+    .menu-header {
         display: none;
-      }
+    }
 
-      .section1{
+    .section1 {
         display: flex;
         margin: 8.5rem 17rem 9rem 18rem;
         justify-content: space-between;
-      }
+    }
 
-    .section1 .element-2{
+    .section1 .element-2 {
         width: 50rem;
     }
 
     /*main seccion 2*/
-    .section2{
+    .section2 {
         display: flex;
         background: #8B48BF;
         justify-content: space-around;
@@ -422,38 +432,41 @@ nav .nav-footer{
     }
 
 
-    
-    .section2 .section2-title{
+
+    .section2 .section2-title {
         width: 55rem;
         margin-left: 18rem;
         margin-right: 5rem;
     }
-    .for-desktop{
+
+    .for-desktop {
         padding: 2rem 2rem 4rem;
         color: white;
         font-weight: 500;
         font-size: 1.6rem;
         line-height: 151.1%;
-    
+
     }
+
     .section2 p:not(.for-desktop) {
         display: none;
     }
 
-    .section2 .for-desktop{
+    .section2 .for-desktop {
         width: 55rem;
         margin-right: 20rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
 
     }
+
     /*section 3*/
 
-    .card--title{
-    
+    .card--title {
+
         height: 4.2rem;
         border-radius: 50px 0px 0px 50px;
-        background:#FAFAFA;
+        background: #FAFAFA;
         color: #323851;
         font-size: 1.6rem;
         font-weight: 700;
@@ -464,13 +477,14 @@ nav .nav-footer{
         padding-left: 2rem;
     }
 
-
-
-    .card1, .card2 ,.card3{
+    .card1,
+    .card2,
+    .card3 {
         width: 43.7rem;
         margin-left: 5rem;
     }
-    .section3{
+
+    .section3 {
         flex-direction: row;
         display: flex;
         flex-wrap: wrap;
@@ -478,8 +492,7 @@ nav .nav-footer{
         background: #FAFAFA;
     }
 
-    .card-number{
-      
+    .card-number {
         top: 41px;
         left: -70px;
         position: relative;
@@ -492,95 +505,104 @@ nav .nav-footer{
         font-size: 1.6rem;
         padding: 1rem 2.5rem;
         border: none;
-        margin:0;
+        margin: 0;
     }
-    .card-body{
-    
+
+    .card-body {
+
         margin: 2.1rem 1.8rem 2rem 1rem;
         color: #B3B2B7;
         font-size: 1.6rem;
         font-weight: 500;
         padding: 1rem;
-    
+
     }
+
     /*seccion 4*/
-    .card-avatar-sanyo,.card-avatar-navarro {
+    .card-avatar-sanyo,
+    .card-avatar-navarro {
         background-color: #FAFAFA;
         margin: 2rem 0 4.5rem 0;
         padding: 2.8rem;
         position: relative;
-   }
-    
-   
-    .players{
+    }
+
+    .players {
         display: flex;
         justify-content: space-around;
         padding: 4.7rem;
-        
+
     }
 
-    .card-avatar{
+    .card-avatar {
         margin: 2rem 0 4.5rem 0;
-      
     }
 
     .btn-contact:hover {
-        background-color: rgba(139, 72, 191, 0.70); 
-      }
+        background-color: rgba(139, 72, 191, 0.70);
+        align-items: center;
+    }
 
-   /*seccion 5*/
+    /*seccion 5*/
 
-   .section5--title{
-    width: 45rem;
-   }
-   .section5{
-    background: #8B48BF;
-    display: flex;
-    justify-content: space-around;
-    
-   }
+    .section5--title {
+        width: 45rem;
+    }
 
-   .conteiner-btn-1{
-    height: 4rem;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-   }
+    .section5 {
+        background: #8B48BF;
+        display: flex;
+        justify-content: space-around;
 
-   .btn-go-for-it{
-    background: #FFF;
-    color: #8B48BF;
-   }
-   /*footer*/
+    }
 
-   footer{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-   }
+    .conteiner-btn-1 {
+        height: 4rem;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        margin-left: 0.5rem;
+    }
 
-   .final-label-desktop{
-    text-align: center;
-    margin-top: 2.5rem;
-    padding: 1rem;
-    color: #8C8C94;
-    font-size: 1.25rem;
-    font-weight: 500;
-   }
-   .final-label{
-    display: none;
-   }
+    .btn-go-for-it {
+        background: #FFF;
+        color: #8B48BF;
+    }
 
-   .icons-logo{
-    display: flex;
-    flex-direction: column-reverse;
-   }
-   .social-icons a{
-    margin:0 1rem ;
-    
-   }
+    /*footer*/
+
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .final-label-desktop {
+        text-align: center;
+        margin-top: 2.5rem;
+        padding: 1rem;
+        color: #8C8C94;
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .final-label {
+        display: none;
+    }
+
+    .icons-logo {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .social-icons a {
+        margin: 0 1rem;
+
+    }
 
 
 
-   
+
 }
