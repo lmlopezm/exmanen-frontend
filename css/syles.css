@@ -349,6 +349,9 @@ nav .nav-footer {
     .desktop-nav {
         display: none;
     }
+    .desktop-nav ul {
+        display: none;
+    }
     .conteiner-btn-header {
         display: none;
 
@@ -371,7 +374,7 @@ nav .nav-footer {
 }
 
 /* Estilos para dispositivos de escritorio */
-@media (min-width: 768px) {
+@media (min-width: 700px) {
 
     /*header*/
     .desktop-nav ul {
