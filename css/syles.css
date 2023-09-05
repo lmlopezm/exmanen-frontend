@@ -26,7 +26,8 @@ html {
 }
 
 .menu-header {
-    display: none;
+    width: 5%;
+    height: 5%;
 }
 
 .conteiner-btn-header {
@@ -256,13 +257,7 @@ footer {
 }
 
 .btn-go {
-    /*
-    
-    
-    
-    
-    
-    */
+
     background-color: #8B48BF;
     color: white;
     border-radius: 50px;
@@ -350,15 +345,14 @@ nav .nav-footer {
 }
 
 /*ocultar elementos del desktop*/
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     .desktop-nav {
         display: none;
     }
-
     .conteiner-btn-header {
         display: none;
-    }
 
+    }
     .for-desktop {
         display: none;
     }
@@ -384,6 +378,12 @@ nav .nav-footer {
         width: 100rem;
     }
 
+    .conteiner-btn-header {
+        position: absolute;
+        right: 2rem;
+        display: flex;
+        /* Oculta el botón de contacto en pantallas pequeñas */
+    }
     nav .nav-header {
         list-style: none;
         padding: 0;
